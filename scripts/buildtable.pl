@@ -2,6 +2,8 @@
 use strict;
 use warnings;
 
+die "error"
+
 my $topbip = 9999;
 my $include_layer = 1;
 
