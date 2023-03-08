@@ -20,4 +20,4 @@ for fname in $(git diff --name-only HEAD $(git merge-base HEAD master)); do
         fi
     fi
 done
-exit $ECODE
+exit 1
