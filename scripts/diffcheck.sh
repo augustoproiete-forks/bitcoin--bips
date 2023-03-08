@@ -11,3 +11,4 @@ if git checkout HEAD^ && scripts/buildtable.pl >/tmp/table.mediawiki 2>/dev/null
 else
     echo 'Cannot build previous commit table for comparison'
 fi
+exit 1
